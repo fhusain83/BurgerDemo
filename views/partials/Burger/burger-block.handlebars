@@ -1,0 +1,12 @@
+<li>
+{{#if devour}}
+	{{name}}
+	<button class="change-devour" data-id="{{id}}">
+		Eat Me!
+	</button>
+	{{/if}}
+
+	{{#unless devour}}
+	{{name}}
+	{{/unless}}
+</li>
